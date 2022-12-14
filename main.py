@@ -3,8 +3,8 @@ import time
 from rembg import remove
 import telebot
 from telebot import types
-admin = "1796927301"
-bot = telebot.TeleBot("5490665149:AAGQD5ZcT0lrM6QcusSBzVJkVYe-O8lR7po")
+admin = "Admins ID"
+bot = telebot.TeleBot("TOKEN @BotFasther dan olinadi")
 @bot.message_handler(commands='start')
 def start(message):
     bot.send_message(message.chat.id,"Salom Menga Rasm Yuboring Va Men Orqa Fonni Ochraman")
